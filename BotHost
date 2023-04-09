@@ -1,0 +1,4 @@
+local Window = Library.CreateLib("EqiiryHub | Bot Host", "Sentinel")
+local Tab = Window:NewTab("Main")
+local Tab = Window:NewTab("Commands")
+local Tab = Window:NewTab("Extra")
