@@ -2,7 +2,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
 local Window = Library.CreateLib("EqiiryHub | BotHost", "Sentinel")
 
 
-local Tab = Window:NewTab("Main")
+local Tab = Window:NewTab("Bots")
 local Section = Tab:NewSection("EqiiryHub | Bots")
 Section:NewToggle("EqiiryHub1", "Toggle to connect the bot to the server", function(state)
     if state then
@@ -74,15 +74,152 @@ Section:NewToggle("EqiiryHub10", "Toggle to connect the bot to the server", func
         print("Toggle Off")
     end
 end)
+Section:NewToggle("EqiiryHub11", "Toggle to connect the bot to the server", function(state)
+    if state then
+        print("Toggle On")
+    else
+        print("Toggle Off")
+    end
+end)
+Section:NewToggle("EqiiryHub12", "Toggle to connect the bot to the server", function(state)
+    if state then
+        print("Toggle On")
+    else
+        print("Toggle Off")
+    end
+end)
+Section:NewToggle("EqiiryHub13", "Toggle to connect the bot to the server", function(state)
+    if state then
+        print("Toggle On")
+    else
+        print("Toggle Off")
+    end
+end)
+Section:NewToggle("EqiiryHub14", "Toggle to connect the bot to the server", function(state)
+    if state then
+        print("Toggle On")
+    else
+        print("Toggle Off")
+    end
+end)
+Section:NewToggle("EqiiryHub15", "Toggle to connect the bot to the server", function(state)
+    if state then
+        print("Toggle On")
+    else
+        print("Toggle Off")
+    end
+end)
+Section:NewToggle("EqiiryHub16", "Toggle to connect the bot to the server", function(state)
+    if state then
+        print("Toggle On")
+    else
+        print("Toggle Off")
+    end
+end)
+Section:NewToggle("EqiiryHub17", "Toggle to connect the bot to the server", function(state)
+    if state then
+        print("Toggle On")
+    else
+        print("Toggle Off")
+    end
+end)
+Section:NewToggle("EqiiryHub18", "Toggle to connect the bot to the server", function(state)
+    if state then
+        print("Toggle On")
+    else
+        print("Toggle Off")
+    end
+end)
+Section:NewToggle("EqiiryHub19", "Toggle to connect the bot to the server", function(state)
+    if state then
+        print("Toggle On")
+    else
+        print("Toggle Off")
+    end
+end)
+Section:NewToggle("EqiiryHub20", "Toggle to connect the bot to the server", function(state)
+    if state then
+        print("Toggle On")
+    else
+        print("Toggle Off")
+    end
+end)
+Section:NewToggle("EqiiryHub21", "Toggle to connect the bot to the server", function(state)
+    if state then
+        print("Toggle On")
+    else
+        print("Toggle Off")
+    end
+end)
+Section:NewToggle("EqiiryHub22", "Toggle to connect the bot to the server", function(state)
+    if state then
+        print("Toggle On")
+    else
+        print("Toggle Off")
+    end
+end)
+Section:NewToggle("EqiiryHub23", "Toggle to connect the bot to the server", function(state)
+    if state then
+        print("Toggle On")
+    else
+        print("Toggle Off")
+    end
+end)
+Section:NewToggle("EqiiryHub24", "Toggle to connect the bot to the server", function(state)
+    if state then
+        print("Toggle On")
+    else
+        print("Toggle Off")
+    end
+end)
+Section:NewToggle("EqiiryHub25", "Toggle to connect the bot to the server", function(state)
+    if state then
+        print("Toggle On")
+    else
+        print("Toggle Off")
+    end
+end)
+Section:NewToggle("EqiiryHub26", "Toggle to connect the bot to the server", function(state)
+    if state then
+        print("Toggle On")
+    else
+        print("Toggle Off")
+    end
+end)
+Section:NewToggle("EqiiryHub27", "Toggle to connect the bot to the server", function(state)
+    if state then
+        print("Toggle On")
+    else
+        print("Toggle Off")
+    end
+end)
+Section:NewToggle("EqiiryHub28", "Toggle to connect the bot to the server", function(state)
+    if state then
+        print("Toggle On")
+    else
+        print("Toggle Off")
+    end
+end)
+Section:NewToggle("EqiiryHub29", "Toggle to connect the bot to the server", function(state)
+    if state then
+        print("Toggle On")
+    else
+        print("Toggle Off")
+    end
+end)
+Section:NewToggle("EqiiryHub30", "Toggle to connect the bot to the server", function(state)
+    if state then
+        print("Toggle On")
+    else
+        print("Toggle Off")
+    end
+end)
 
 local Tab = Window:NewTab("Actions")
 local Section = Tab:NewSection("EqiiryHub | Actions")
 
-local Tab = Window:NewTab("Autofarm")
+local Tab = Window:NewTab("Import")
 local Section = Tab:NewSection("EqiiryHub | Target")
-
-local Tab = Window:NewTab("Teleports")
-local Section = Tab:NewSection("EqiiryHub | Toggles")
 
 local Tab = Window:NewTab("Extra")
 Section:NewLabel("Created By: Eqiiry#1337")
