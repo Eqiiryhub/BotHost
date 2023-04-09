@@ -1,4 +1,6 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("EqiiryHub | Bot Host", "Sentinel")
+
 local Tab = Window:NewTab("Main")
 local Tab = Window:NewTab("Commands")
 local Tab = Window:NewTab("Extra")
