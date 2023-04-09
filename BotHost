@@ -220,7 +220,6 @@ local Section = Tab:NewSection("EqiiryHub | Actions")
 
 local Tab = Window:NewTab("Import")
 local Section = Tab:NewSection("EqiiryHub | Import")
-local Tab = Window:NewTab("Import Scripts/Code")
 Section:NewTextBox("ImportCodeHere", "Import scripts", function(txt)
 	print(txt)
 end)
